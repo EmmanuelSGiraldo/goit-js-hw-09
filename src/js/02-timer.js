@@ -167,8 +167,8 @@ const styleNumbers = document.querySelectorAll('.value');
  */
 const styleStrings = document.querySelectorAll('.label');
 
-document.body.style.background = 'lightblue';
-containerCountdown.style.border = '2px solid green';
+document.body.style.background = 'silver';
+containerCountdown.style.border = '3px solid black ';
 containerCountdown.style.borderRadius = '5px';
 containerCountdown.style.width = '600px';
 containerCountdown.style.marginTop = '25px';
@@ -191,7 +191,7 @@ for (const styleNumber of styleNumbers) {
 for (const styleString of styleStrings) {
   styleString.style.textTransform = 'uppercase';
   styleString.style.fontWeight = 'bold';
-  styleString.style.fontSize = '30px';
+  styleString.style.fontSize = '28px';
   styleString.style.fontFamily = 'Roboto, sans-serif';
   styleString.style.color = getRandomHexColor();
 }
